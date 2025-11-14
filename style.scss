@@ -13,7 +13,7 @@
 
 header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     height: 15vh;
 
@@ -21,6 +21,7 @@ header{
       display: flex;
       margin-top:0.8rem;
       padding: 5px;
+      margin-left: 2%;
 
         img{
             width: 32px;
@@ -31,6 +32,7 @@ header{
         h1{
             font-size: 1.8rem;
             color: #1F2937;
+            margin-right: 20%;
             
         }
     }
@@ -38,13 +40,14 @@ header{
     nav{
         display: flex;
         width: 50%;
+        margin-right: 2%;
         a{
             width: 100%;
             justify-content: space-evenly;
             text-align: center;
             margin-top: 1.5rem;
             font-size: 0.8rem;
-            color:grey;
+            color: #4B5563;
         }
         a:hover{
             text-decoration: underline;
@@ -74,3 +77,87 @@ header{
         }
 }
 
+.primeira-section{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 60%;
+
+        h2{
+           font-size: 2.2rem;
+           width: 80%;
+           margin-left: 4%;
+           color:#1F2937;
+           font-weight: bold;
+        }
+        p{
+            width: 80%;
+            margin-left: 4%;
+            color: #4B5563;
+        }
+        div{
+            display: flex;
+            width: 50%;
+            justify-content: space-between;
+            margin-left: 2%;
+
+            .btn-left{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: 4%;
+                padding: 8px 16px;
+                background-color: #21C05C;
+                color: white;
+                font-size: 0.9rem;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+
+                img{
+                    width: 24px;
+                    color:white;
+                    background: transparent;
+                    margin-left: 5px;
+                }
+
+            }
+            .btn-right{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 80%;
+                border-radius: 5px;
+                border:1px solid rgb(0, 123, 255);
+                width: 8.2rem;
+                padding-left: 0.2rem;
+                height:8vh;
+                background: transparent;
+                color: rgb(0, 123, 255);
+                cursor: pointer;
+                text-align: center;
+              
+                img{
+                    width: 24px;
+                    margin-left: 5px;
+                    padding-right: 0.2rem;
+                }
+               
+            }
+        }
+    }
+
+    img{
+        width: 21rem;
+    }
+
+}
+
+.icone-btn-left{
+    width: 2rem;
+}
