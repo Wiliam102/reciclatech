@@ -21,35 +21,35 @@ header div {
   margin-left: 2%;
 }
 header div img {
-  width: 32px;
-  height: 32px;
+  width: 26px;
+  height: 26px;
   margin-right: 5px;
   margin-top: 5px;
 }
 header div h1 {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   color: #1F2937;
   margin-right: 20%;
 }
 header nav {
   display: flex;
-  width: 50%;
   margin-right: 2%;
+  gap: 1rem;
 }
 header nav a {
-  width: 100%;
-  justify-content: space-evenly;
+  display: flex;
   text-align: center;
   margin-top: 1.5rem;
   font-size: 0.8rem;
   color: #4B5563;
+  padding: 0.5rem 0.7rem;
 }
 header nav a:hover {
   text-decoration: underline;
 }
 header .link-btn-header {
   margin: 0;
-  margin-top: 0.6rem;
+  margin-top: 1rem;
   height: 8vh;
   display: flex;
   justify-content: center;
@@ -92,7 +92,7 @@ header .link-btn-header:hover {
 }
 .primeira-section section div {
   display: flex;
-  width: 50%;
+  width: 60%;
   justify-content: space-between;
   margin-left: 2%;
 }
@@ -122,13 +122,14 @@ header .link-btn-header:hover {
   width: 80%;
   border-radius: 5px;
   border: 1px solid rgb(0, 123, 255);
-  width: 8.2rem;
+  width: 9rem;
   padding-left: 0.2rem;
   height: 8vh;
   background: transparent;
   color: rgb(0, 123, 255);
   cursor: pointer;
   text-align: center;
+  font-size: 0.9rem;
 }
 .primeira-section section div .btn-right img {
   width: 24px;
@@ -173,7 +174,7 @@ header .link-btn-header:hover {
 
 .duvidas {
   width: 50%;
-  height: 20vh;
+  height: 30vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -185,8 +186,51 @@ header .link-btn-header:hover {
   justify-content: space-evenly;
   width: 100%;
   height: 60vh;
+  padding-bottom: 3vh;
 }
 .informacoes-adicionais article {
-  width: 35%;
+  width: 45%;
+  height: 100%;
   background-color: #F3F5F8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.informacoes-adicionais article div {
+  background-color: #F3F5F8;
+  display: flex;
+  width: 45%;
+  justify-content: space-around;
+}
+.informacoes-adicionais article div .titulo-article-esquerda {
+  background-color: #F3F5F8;
+  color: #21C05C;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-left: -15px;
+}
+.informacoes-adicionais article div .titulo-article-esquerda img {
+  background-color: #80eaa7;
+}
+.informacoes-adicionais article .titulo-article-direita {
+  background-color: #F3F5F8;
+  color: rgb(29, 115, 228);
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding-left: 0.2rem;
+}
+.informacoes-adicionais article p {
+  background-color: #F3F5F8;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #4B5563;
+}
+.informacoes-adicionais article ul {
+  background-color: #F3F5F8;
+}
+.informacoes-adicionais article ul li {
+  background-color: #F3F5F8;
+  font-size: 0.9rem;
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */

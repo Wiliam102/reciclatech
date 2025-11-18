@@ -23,13 +23,13 @@ header{
       margin-left: 2%;
 
         img{
-            width: 32px;
-            height: 32px;
+            width: 26px;
+            height: 26px;
             margin-right: 5px;
             margin-top: 5px;
         }
         h1{
-            font-size: 1.8rem;
+            font-size: 1.4rem;
             color: #1F2937;
             margin-right: 20%;
             
@@ -38,15 +38,15 @@ header{
 
     nav{
         display: flex;
-        width: 50%;
         margin-right: 2%;
+        gap:1rem;
         a{
-            width: 100%;
-            justify-content: space-evenly;
+            display: flex;
             text-align: center;
             margin-top: 1.5rem;
             font-size: 0.8rem;
             color: #4B5563;
+            padding: 0.5rem 0.7rem;
         }
         a:hover{
             text-decoration: underline;
@@ -56,7 +56,7 @@ header{
 
        .link-btn-header{
          margin: 0;
-         margin-top: 0.6rem;
+         margin-top: 1rem;
          height: 8vh;
          display: flex;
          justify-content: center;
@@ -101,7 +101,7 @@ header{
         }
         div{
             display: flex;
-            width: 50%;
+            width: 60%;
             justify-content: space-between;
             margin-left: 2%;
 
@@ -133,13 +133,14 @@ header{
                 width: 80%;
                 border-radius: 5px;
                 border:1px solid rgb(0, 123, 255);
-                width: 8.2rem;
+                width: 9rem;
                 padding-left: 0.2rem;
                 height:8vh;
                 background: transparent;
                 color: rgb(0, 123, 255);
                 cursor: pointer;
                 text-align: center;
+                font-size: 0.9rem;
               
                 img{
                     width: 24px;
@@ -195,7 +196,7 @@ header{
 
 .duvidas{
     width: 50%;
-    height: 20vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -207,9 +208,55 @@ header{
     justify-content: space-evenly;
     width: 100%;
     height: 60vh;
+    padding-bottom: 3vh;
 
     article{
-        width: 35%;
+        width: 45%;
+        height: 100%;
         background-color: #F3F5F8;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+        div{
+            background-color: #F3F5F8;
+            display: flex;
+            width: 45%;
+            justify-content: space-around;
+            .titulo-article-esquerda{
+                background-color: #F3F5F8;
+                color: #21C05C;
+                font-weight: 600;
+                font-size: 1.1rem;
+                margin-left: -15px;
+                img{
+                    background-color: #80eaa7;
+                }
+            }
+        }
+
+        .titulo-article-direita{
+             background-color: #F3F5F8;
+             color: rgb(29, 115, 228);
+             font-size: 1.1rem;
+             font-weight: 600;
+             padding-left: 0.2rem;
+        }
+        p{
+            background-color: #F3F5F8;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #4B5563;
+        }
+        ul{
+            background-color: #F3F5F8;
+            li{
+                background-color: #F3F5F8;
+                font-size: 0.9rem;
+                font-weight: 700;
+            }
+        }
+      
     }
 }
