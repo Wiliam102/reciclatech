@@ -12,7 +12,8 @@ header {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 15vh;
+  height: 13vh;
+  border-bottom: 1px solid #d6dbe3;
 }
 header div {
   display: flex;
@@ -34,7 +35,7 @@ header div h1 {
 header nav {
   display: flex;
   margin-right: 2%;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 header nav a {
   display: flex;
@@ -71,6 +72,7 @@ header .link-btn-header:hover {
   width: 100%;
   height: 60vh;
   display: flex;
+  margin-top: 2rem;
 }
 .primeira-section section {
   display: flex;
@@ -92,7 +94,7 @@ header .link-btn-header:hover {
 }
 .primeira-section section div {
   display: flex;
-  width: 55%;
+  width: 60%;
   justify-content: space-between;
   margin-left: 2%;
 }
@@ -145,11 +147,13 @@ header .link-btn-header:hover {
 }
 
 .dados-numericos {
+  margin-top: 2rem;
   width: 100%;
   height: 25vh;
   background-color: #F3F5F8;
   display: flex;
   justify-content: space-around;
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.1);
 }
 .dados-numericos div {
   display: flex;
@@ -196,6 +200,7 @@ header .link-btn-header:hover {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.1);
 }
 .informacoes-adicionais article div {
   background-color: #F3F5F8;
@@ -239,20 +244,23 @@ header .link-btn-header:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 100vh;
+  height: auto;
   width: 100%;
   background-color: #F3F5F8;
   margin-bottom: 3rem;
   margin-top: 2rem;
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.1);
 }
 .produtos-disponiveis div {
   margin-left: 10%;
-  height: 20vh;
-  padding-bottom: 0.2rem;
+  height: auto;
+  padding-bottom: 0.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  gap: 0.5rem;
+  margin-top: 2rem;
   background-color: #F3F5F8;
+  margin-bottom: 2rem;
 }
 .produtos-disponiveis div h2 {
   background-color: #F3F5F8;
@@ -263,14 +271,18 @@ header .link-btn-header:hover {
 .produtos-disponiveis section {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
-  gap: 4rem;
+  gap: 3rem;
   background-color: #F3F5F8;
+  flex-wrap: wrap;
+  padding-bottom: 3rem;
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.1);
 }
 .produtos-disponiveis article {
-  width: 220px;
-  height: 400px;
+  width: 20%;
+  min-width: 250px;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -282,7 +294,10 @@ header .link-btn-header:hover {
 }
 .produtos-disponiveis article img {
   width: 100%;
-  height: 250px;
+  height: 30vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
 }
 .produtos-disponiveis article h3 {
   color: #1F2937;
@@ -304,6 +319,7 @@ header .link-btn-header:hover {
   font-size: 0.9rem;
   border: none;
   margin-bottom: 1rem;
+  cursor: pointer;
 }
 
 .comentarios {
@@ -357,4 +373,115 @@ header .link-btn-header:hover {
   color: #4B5563;
   padding-bottom: 1rem;
   font-weight: 500;
+}
+
+.convite {
+  width: 100%;
+  height: 50vh;
+  background-color: #F3F5F8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.convite h2 {
+  margin-top: 2rem;
+}
+.convite p {
+  color: #4B5563;
+  background-color: #F3F5F8;
+  width: 42%;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+.convite div {
+  width: 40%;
+  display: flex;
+  gap: 1rem;
+  background-color: #F3F5F8;
+}
+.convite div button {
+  width: 40%;
+  height: 7vh;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-style: 600;
+  margin-bottom: 3rem;
+  cursor: pointer;
+}
+.convite div .btn-right {
+  background: transparent;
+  border: 1px solid #21C05C;
+  color: #21C05C;
+}
+.convite div .btn-left {
+  background-color: #21C05C;
+  color: white;
+  border: none;
+}
+
+footer {
+  width: 100%;
+  background-color: #1F2937; /* Cor de fundo */
+  color: #9CA3AF; /* Cor do texto */
+  padding: 3rem 0;
+}
+
+.footer-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 3rem;
+  background-color: #1F2937;
+}
+
+.footer-box {
+  width: 40%;
+  color: #9CA3AF;
+  background-color: #1F2937;
+}
+.footer-box div {
+  display: flex;
+  background-color: #1F2937;
+  gap: 0.1rem;
+}
+.footer-box div img {
+  width: 28px;
+  height: 28px;
+  background-color: #1F2937;
+}
+.footer-box h3 {
+  color: white;
+  background-color: #1F2937;
+  font-weight: 600;
+}
+.footer-box p {
+  color: #9CA3AF;
+  background-color: #1F2937;
+  font-size: 0.9rem;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #1F2937;
+  width: 100%;
+}
+.footer-social img {
+  margin-top: 1rem;
+  background-color: #1F2937;
+  margin-right: 1rem;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 2rem;
+  color: #9CA3AF;
+  background-color: #1F2937;
+  margin-top: 5rem;
+  font-size: 0.9rem;
 }/*# sourceMappingURL=style.css.map */
