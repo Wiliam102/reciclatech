@@ -492,6 +492,15 @@ footer {
     flex-direction: column;
     height: auto;
   }
+  .duvidas {
+    width: 80%;
+  }
+  .duvidas h2 {
+    text-align: center;
+  }
+  .duvidas p {
+    text-align: center;
+  }
   .primeira-section {
     height: auto;
     flex-direction: column;
@@ -588,5 +597,32 @@ footer {
     display: flex;
     justify-content: center;
     gap: 1rem;
+  }
+}
+@media (max-width: 900px) {
+  .link-btn-header {
+    padding: 8px 20px;
+  }
+  .primeira-section section p {
+    font-size: 1.2rem;
+  }
+  .primeira-section section div {
+    width: 80%;
+  }
+  .informacoes-adicionais article div {
+    width: 70%;
+  }
+  .informacoes-adicionais article div .titulo-article-esquerda {
+    font-size: 1.5rem;
+  }
+  .informacoes-adicionais article div .titulo-article-direita {
+    font-size: 1.5rem;
+  }
+  .informacoes-adicionais article p {
+    font-size: 1.1rem;
+    width: 80%;
+  }
+  .informacoes-adicionais article ul li {
+    font-size: 1rem;
   }
 }/*# sourceMappingURL=style.css.map */

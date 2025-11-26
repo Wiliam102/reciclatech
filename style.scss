@@ -543,6 +543,16 @@ footer {
         height: auto;
     }
 
+    .duvidas{
+        width: 80%;
+        h2{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+    }
+
     .primeira-section{
         height: auto;
         flex-direction: column;
@@ -661,5 +671,55 @@ footer {
             gap: 1rem;
         }
     }
+
+}
+
+@media(max-width:900px){
+       .link-btn-header{
+         padding: 8px 20px;
+       }
+
+       .primeira-section{
+         section{
+            p{
+                font-size: 1.2rem;
+            }
+
+            div{
+                width: 80%;
+
+            }
+         }
+       }
+
+
+       .informacoes-adicionais{
+         article{
+            div{
+                width: 70%;
+
+                .titulo-article-esquerda{
+                  font-size: 1.5rem;
+                }
+
+                 .titulo-article-direita{
+                  font-size: 1.5rem;
+                }
+
+                
+            }
+
+            p{
+                font-size: 1.1rem;
+                width: 80%;
+            }
+
+            ul{
+                li{
+                    font-size: 1rem;
+                }
+            }
+         }
+       }
 
 }
